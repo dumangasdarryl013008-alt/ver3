@@ -1,0 +1,88 @@
+Please update my typing game project with the following features and changes:
+
+1. Change the title name and website name from “TypeBlast” to a new custom name.
+→ Place the title on the left side of the top section of the screen.
+
+
+2. Change the theme colors of the entire website/game to yellow and grey.
+→ Apply consistent styling for the background, buttons, text, and highlights.
+
+
+3. Add an input field on the right side beside the title, where users can enter their player name (type name) before starting the game.
+
+
+4. Add a simple Leaderboard system showing:
+
+Player names
+
+Scores
+
+Mode played (Normal / Hard / Survival / Combo / Tournament)
+
+
+
+5. Add a “Leaderboards” button in the footer.
+→ When clicked, it should open a section or modal showing all leaderboard lists.
+
+
+6. Add additional game modes beside Normal Mode:
+
+Hard Mode: –1 second for every wrong type.
+
+Survival Mode: –2 seconds for every wrong type, +1 second for every correct full word.
+
+Combo Mode: Every 2 consecutive correct words = +3 seconds; wrong word = –1 second.
+
+
+
+7. Add pop-up animations for time bonuses and penalties:
+
+Green “+ seconds” animation for extra time.
+
+Red “– seconds” animation for time deductions.
+→ Appear on the side of the screen with fade-in/out or slide animation.
+
+
+
+8. Add a visible timer animation to show when time is decreasing (e.g., timer flashes or shrinks slightly).
+
+
+9. Change background music to the Spotify track “bee.” by GroovyDominoes52.
+
+
+10. Autoplay the background music (looped infinitely) at 50% volume.
+
+
+11. In the footer, remove the Discord and GitHub neighboring button, then replace it with the text:
+→ "Project from 12-Peter Group 5"
+
+
+12. Add Tournament Mode:
+
+
+
+Allow 2 to 3 players to compete in Normal Mode.
+
+Players will race in real time or take turns, and whoever scores the highest wins the match.
+
+The winner’s name and score should be added to a separate Tournament Leaderboard.
+
+
+13. Add multiple Leaderboard tabs or sections:
+
+
+
+One for Regular Modes (Normal, Hard, Survival, Combo)
+
+One for Tournament Mode
+
+
+14. Make the game fully mobile-responsive so it can be played smoothly on cellphones:
+
+
+
+Responsive layout for small screens
+
+Buttons and text fields properly scaled
+
+Input field and leaderboard accessible and readable on mobile

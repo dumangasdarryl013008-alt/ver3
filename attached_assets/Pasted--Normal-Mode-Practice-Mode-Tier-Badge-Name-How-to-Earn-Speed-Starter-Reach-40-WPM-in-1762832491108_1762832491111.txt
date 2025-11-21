@@ -1,0 +1,75 @@
+🟢 Normal Mode – Practice Mode
+
+Tier	Badge Name	How to Earn
+
+🥉	Speed Starter - Reach 40+ WPM in a round.
+🥉	Quick Learner - Improve your score three rounds in a row.
+🥈	Accuracy Ace -	Finish with 95% or higher accuracy.
+🥈	Focus Finder -	Complete a full session without pausing.
+🥇	Score Builder - Earn 200+ points in one session.
+🌟	Consistency King/Queen - Keep 90%+ accuracy for 5 sessions straight.
+
+
+🔴 Hard Mode – Precision Challenge
+
+Tier	Badge Name	How to Earn
+
+🥉	Steady Hands -	Get 90%+ accuracy in a hard round.
+🥈	Sharp Shooter	Score - 50+ points with fewer than 3 mistakes.
+🥈	Risk Taker -	Finish with less than 5 seconds left.
+🥇	Flawless Fighter	- Complete a round with zero mistakes.
+🥇	Perfect Precisionist	 - Achieve 100% accuracy.
+🌟	No-Miss Master -	Type 100 words perfectly without any error.
+
+
+🟡 Combo Mode – Streak Challenge
+
+Tier	Badge Name	How to Earn
+
+🥉	Combo Champ - Reach a 20-word combo streak.
+🥈	Momentum Master	 - Earn 5 separate combos in one session.
+🥈	Precision Streaker - Type 50 words correctly in a row.
+🥇	Streak Master - Keep your combo going for 1 full minute.
+🥇	Chain Crusher - Complete 10 combos without breaking.
+🌟	Hot Streak Hero - Reach the highest combo multiplier in the game.
+
+
+🔵 Survival Mode – Endurance Challenge
+
+Tier	Badge Name	How to Earn
+
+🥉	Time Keeper - Survive for 2 minutes.
+🥈	Time Warrior - Gain 30+ bonus seconds in one session.
+🥈	Iron Typer - Maintain 90%+ accuracy during survival.
+🥇	Endurance Expert - 	Last 5 minutes or more.
+🥇	Last-Second Saver - Recover from 5 seconds or less and keep going.
+🌟	Survivor Legend - 	Reach the top 10 in the leaderboard.
+
+⌨️ QWERTY Keyboard Practice Mode
+
+Tier	Badge Name	How to Earn
+
+🥉	Key Explorer -	Type 50 correct letters in one session.
+🥉	First Words -	Type 20 words correctly without major mistakes.
+🥈	Finger Flyer -	Reach 30+ WPM during practice.
+🥈	Letter Master	Type - every letter of the alphabet correctly at least once.
+🥇	Accuracy Ace - Maintain 95%+ accuracy for an entire session.
+🥇	Speed Typer -	Type 50 words correctly within the time limit.
+🌟	Keyboard Legend	 - Complete 5 sessions with 90%+ accuracy each.
+
+
+For each badge, implement a progress indicator showing how close the player is to earning it. Indicators should include:
+
+1. Progress bar (e.g., [█████░░░] 60%)
+
+2. Counter / live number (e.g., 15/20 words, 37/40 WPM, Accuracy 93/95%)
+
+3. Color change or alert when progress is near completion (80–99% → yellow and message 'Almost there!')
+
+4. Reset indicator if the badge requirement is not met (e.g., mistake → ❌ Mistake! Progress Reset)
+
+Add an ‘Achievements’ button at the bottom of the game screen, next to a sentence like 'View your progress'. Clicking this button opens a panel showing all badge progress indicators for all modes.
+
+The system should update automatically while the player types and provides live visual and text feedback.
+
+Output: Code or pseudo-code ready to integrate into the game, including badge progress, alerts, colors, and reset logic."

@@ -1,0 +1,84 @@
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 10px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .header h1 {
+    font-size: 1.5rem !important;
+    margin-bottom: 8px !important;
+  }
+
+  .sub-header {
+    font-size: 0.8rem !important;
+    margin-bottom: 10px !important;
+  }
+
+  .MuiTextField-root {
+    width: 100% !important;
+    max-width: 200px !important;
+  }
+
+  .type-box {
+    font-size: 1.2rem !important;
+    padding: 10px !important;
+  }
+
+  .bottomBar {
+    flex-wrap: wrap !important;
+  }
+
+  .bottomBar .MuiGrid-container {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+
+  .bottomBar .MuiBox-root {
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+
+  .stats-container {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+
+  .MuiDialog-paper {
+    margin: 16px !important;
+    max-width: calc(100% - 32px) !important;
+  }
+
+  .MuiTableCell-root {
+    padding: 8px 4px !important;
+    font-size: 0.8rem !important;
+  }
+
+  .Select__control {
+    min-width: 100px !important;
+    font-size: 0.8rem !important;
+  }
+
+  .MuiIconButton-root {
+    padding: 6px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header h1 {
+    font-size: 1.2rem !important;
+  }
+
+  .type-box {
+    font-size: 1rem !important;
+  }
+
+  .MuiButton-root {
+    font-size: 0.7rem !important;
+    padding: 4px 8px !important;
+  }
+
+  .timer {
+    font-size: 1rem !important;
+  }
+}

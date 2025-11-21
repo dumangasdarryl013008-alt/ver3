@@ -1,0 +1,29 @@
+@keyframes timer-flash {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes timer-shrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.timer-countdown {
+  animation: timer-flash 1s ease-in-out infinite, timer-shrink 1s ease-in-out infinite;
+}
+
+.timer-warning {
+  color: #ff4444 !important;
+  animation: timer-flash 0.5s ease-in-out infinite, timer-shrink 0.5s ease-in-out infinite;
+}
